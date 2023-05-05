@@ -13,5 +13,5 @@ def count_episodes_per_series(basics_df, episode_df, limit=50):
 
     #print('6. Count_episodes_per_series')
     #series_df.show()
-    series_df.write.write.format('csv').option('header', 'true').mode('overwrite').save(
+    series_df.write.format('csv').option('header', 'true').mode('overwrite').save(
         'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project-2\\Result\\Task6.csv')

@@ -6,5 +6,5 @@ def join_principals_and_names(principals_df, name_df):
     result_df = filtered_df.select("primaryName", "category", "characters")
     #print('4. join_principals_and_names')
     #result_df.show()
-    result_df.write.write.write.format('csv').option('header', 'true').mode('overwrite').save(
+    result_df.write.format('csv').option('header', 'true').mode('overwrite').save(
         'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project-2\\Result\\Task4.csv')
