@@ -13,5 +13,5 @@ def get_top_movies_by_genre(basics_df, ratings_df, limit=10):
         genre_df = ranked_movies_df.filter(col("genres") == genre_name).filter(col("rank") <= limit)
         #print(f"Genre: {genre_name}")
         #genre_df.show(truncate=False)
-    ranked_movies_df.write.format('csv').option('header', 'true').mode('overwrite').save('C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project\\Result\\Task8.csv')
+    ranked_movies_df.write.format('csv').option('header', 'true').mode('overwrite').save('C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project-2\\Result\\Task8.csv')
 

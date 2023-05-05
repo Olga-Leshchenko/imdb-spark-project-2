@@ -17,4 +17,4 @@ def get_top_adult_movies(akas_df, basics_df, ratings_df, orderBy=None):
         #print(f"Region: {region_name}")
         #region_df.select('primaryTitle', 'originalTitle', 'averageRating').show()
     top_movies_df.write.write.format('csv').option('header', 'true').mode('overwrite').save(
-        'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project\\Result\\Task5.csv')
+        'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project-2\\Result\\Task5.csv')

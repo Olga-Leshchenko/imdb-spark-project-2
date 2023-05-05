@@ -12,4 +12,4 @@ def get_top_movies_by_decade(basics_df, ratings_df, limit=10):
         #decade_df.select("primaryTitle", "averageRating").show(truncate=False)
 
     decade_ratings_df.write.format('csv').option('header', 'true').mode('overwrite').save(
-        'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project\\Result\\Task7.csv')
+        'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project-2\\Result\\Task7.csv')

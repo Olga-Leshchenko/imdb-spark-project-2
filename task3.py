@@ -6,4 +6,4 @@ def get_movies_over_two_hours(basics_df):
     # movies_df.show()
     #movies_df.select('primaryTitle', 'originalTitle').show()
     movies_df.write.write.write.format('csv').option('header', 'true').mode('overwrite').save(
-        'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project\\Result\\Task3.csv')
+        'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project-2\\Result\\Task3.csv')

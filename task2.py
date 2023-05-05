@@ -6,4 +6,4 @@ def get_names_of_people_born_in_19th_century(name_df):
     # people_df.show()
     #people_df.select(col('primaryName')).show()
     people_df.write.write.write.format('csv').option('header', 'true').mode('overwrite').save(
-        'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project\\Result\\Task2.csv')
+        'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project-2\\Result\\Task2.csv')

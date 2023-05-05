@@ -7,4 +7,4 @@ def join_principals_and_names(principals_df, name_df):
     #print('4. join_principals_and_names')
     #result_df.show()
     result_df.write.write.write.format('csv').option('header', 'true').mode('overwrite').save(
-        'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project\\Result\\Task4.csv')
+        'C:\\Users\\Olga\\PycharmProjects\\imdb-spark-project-2\\Result\\Task4.csv')
